@@ -359,11 +359,16 @@
     <string name="vjs_description">Founder | Lead Developer | Maintainer</string>
     <string name="pritish_name">Pritish Joshi</string>
     <string name="pritish_description">Designer | UX | Tester</string>
-    <string name="rakesh_name">Rakesh Rakhi Samuel</string>
-    <string name="rakesh_description">Website Creator/Maintainer | Contributor</string>
+    <string name="shekhawat_name">Anand Shekhawat</string>
+    <string name="shekhawat_description">Contributor</string>
     <string name="abhimanyu_name">Abhimanyu Shekhawat</string>
     <string name="abhimanyu_description">Team Member | Contributor</string>
     <string name="vinoth_name">Vinoth Raja</string>
     <string name="vinoth_description">Team Member | Contributor</string>
 
+    <!-- Ambient edge lighting -->
+    <string name="notification_screen_title">Screen</string>
+    <string name="pulse_ambient_light_title">Edge lighting</string>
+    <string name="pulse_ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
+    <string name="pulse_ambient_light_color_title">Edge light color</string>
 </resources>
