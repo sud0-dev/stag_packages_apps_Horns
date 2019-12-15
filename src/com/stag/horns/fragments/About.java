@@ -61,7 +61,7 @@ public class About extends SettingsPreferenceFragment implements
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.about, container, false);
         FancyAboutPage fancyAboutPage = (FancyAboutPage)view.findViewById(R.id.fancyaboutpage);
-	CircularImageView circularImageView = findViewById(R.id.circularImageView);
+	CircularImageView circularImageView = view.findViewById(R.id.circularImageView);
 
         int currentNightMode = getActivity().getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK;
         switch (currentNightMode) {
