@@ -279,7 +279,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
-                    <com.stag.horns.about.CircularImageView
+                    <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/shekhawatname"
@@ -377,7 +377,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:id="@+id/linearLayout">
-                <CalendarView
+                <com.stag.horns.about.CircularImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:id="@+id/vinoth"
@@ -431,7 +431,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:id="@+id/linearLayout">
-                <CalendarView
+                <com.stag.horns.about.CircularImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:id="@+id/debjit"
