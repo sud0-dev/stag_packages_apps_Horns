@@ -36,7 +36,8 @@ import com.stag.horns.about.DiagonalView;
 import com.android.settings.R;
 
 public class FancyAboutPage extends RelativeLayout {
-    private TextView l1,l2,phenomname,vjsname,pritishname,shekhawatname,abhimanyuname,vinothname,debjitname,phenomdescription,vjsdescription,pritishdescription,shekhawatdescription,abhimanyudescription,vinothdescription,debjitdescription;
+    private TextView l1,l2,phenomname,vjsname,pritishname,shekhawatname,abhimanyuname,vinothname,debjitname,phenomdescription,
+    vjsdescription,pritishdescription,shekhawatdescription,abhimanyudescription,vinothdescription,debjitdescription;
     DiagonalView diagonalView;
     CircularImageView phenom,vjs,pritish,shekhawat,abhimanyu,vinoth,debjit;
     ImageView gg,tl,tw,git;
