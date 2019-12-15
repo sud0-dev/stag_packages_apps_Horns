@@ -67,7 +67,7 @@ public class FancyAboutPage extends RelativeLayout {
         phenom= findViewById(R.id.phenom);
         vjs= findViewById(R.id.vjs);
         pritish= findViewById(R.id.pritish);
-        rakesh= findViewById(R.id.shekhawat);
+        shekhawat= findViewById(R.id.shekhawat);
         abhimanyu = findViewById(R.id.abhimanyu);
         vinoth= findViewById(R.id.vinoth);
         debjit = findViewById(R.id.debjit);

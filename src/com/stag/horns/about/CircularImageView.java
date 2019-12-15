@@ -1,3 +1,8 @@
+/*
+ * Copyright (C) 2018 Mikhael LOPEZ
+ * Licensed under the Apache License Version 2.0
+ */
+
 package com.stag.horns.about;
 
 import android.content.Context;
@@ -12,18 +17,16 @@ import android.graphics.Paint;
 import android.graphics.Shader;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+
+import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatImageView;
 import android.util.AttributeSet;
+
+import com.android.settings.R;
 
 import static android.widget.ImageView.ScaleType.CENTER_CROP;
 import static android.widget.ImageView.ScaleType.CENTER_INSIDE;
 
-import com.android.settings.R;
-
-/**
- * Copyright (C) 2018 Mikhael LOPEZ
- * Licensed under the Apache License Version 2.0
- */
 public class CircularImageView extends AppCompatImageView {
 
     // Default Values
@@ -134,6 +137,11 @@ public class CircularImageView extends AppCompatImageView {
     public void setShadowGravity(ShadowGravity shadowGravity) {
         this.shadowGravity = shadowGravity;
         invalidate();
+    }
+
+    @Override
+    public void setImageResource(int resId) {
+        super.setImageResource(resId);
     }
 
     @Override
